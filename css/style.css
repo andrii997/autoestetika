@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,latin-ext');
+*{margin:0;padding:0;empty-cells: show;font-family: 'Roboto', sans-serif;position: relative;behavior: url(PIE.htc);}
+body{min-width: 1050px;}
+img {border:0;}
+br {clear:both;}
+textarea {resize: none;}
+input {outline: none!important;}
+input:focus, textarea:focus {outline: 0;}
+button {border: 0;outline: none!important;}
+
+#q2d {color:white;font-size:12px;float:right;cursor:pointer;vertical-align: top;text-decoration:none;display: block;position: absolute;right: 30px;bottom: 20px;}
+#q2d img {margin-top: -4px;margin-right: 5px;float:left;}
+#q2d:hover {text-decoration:underline;}
+#q2d:hover img {opacity: 0.7;}
+
+.middle {margin:auto; width:1024px;}	
+
+nav {background: black;padding: 1px;height: 70px;}
+.logo {float: left;margin: -5px 40px 0 0;}
+nav ul {margin: 15px 0 0 30px;list-style: none;}
+nav li {float: left;margin: 0 10px;}
+nav li a {color: #e4e4e4;font-size: 12px;line-height: 39px;text-decoration: none;font-weight: 400;text-transform: uppercase;}
+nav li a:hover {color: #e20033;}
+nav .openModal {float: right;}
+.openModal {background: #e20033;display: inline-block;border-radius: 5px;color: #ffffff;text-decoration: none;padding: 10px 20px;text-transform: uppercase;font-size: 13px;transition: all 0.3s ease-out 0.1s;}
+.openModal:hover {background: #b9052e!important;}
+
+header {background: url(../img/header.jpg) no-repeat right bottom;}
+header h1 {color: #313131;font-size: 23px;font-weight: 700;line-height: 30px;text-align: center;padding: 50px 0;text-transform: uppercase;}
+header h1 span {color: #e20033;}
+header h1 span + span {font-size: 32px;}
+.zakaz-form {background: url(../img/popup.png) no-repeat;text-align: center;padding: 50px 60px;display: inline-block;width: 310px;height: 295px;margin: 50px 0;}
+.zakaz-form form {top: -20px;}
+.zakaz-form input {color: #ffffff;font-size: 16px;line-height: 39px;border: 0;border-bottom: 1px solid white;padding: 20px 0 0;background: none;text-align: center;width: 100%;}
+.zakaz-form p {font-size: 11px;color: #ffffff;font-weight: 400;font-style: italic;padding: 10px 0 25px;}
+button {border: 1px solid white;border-radius: 5px;padding: 10px 35px;background: none!important;cursor: pointer;}
+
+::-webkit-input-placeholder {color: #ffffff;font-size: 14px;line-height: 39px;}
+::-moz-placeholder {color: #ffffff;font-size: 14px;line-height: 39px;}
+:-moz-placeholder {color: #ffffff;font-size: 14px;line-height: 39px;}
+:-ms-input-placeholder {color: #ffffff;font-size: 14px;line-height: 39px;}
+
+#red-car {background: url(../img/car-1.jpg) no-repeat center center;height: 690px;}
+#red-car h2 {font-size: 18px;line-height: 16px;color: #ffffff;font-weight: 700;text-align: left;margin: 0;padding: 60px 0 5px;text-transform: none;}
+#red-car p {color: #ffffff;font-size: 14px;line-height: 16px;padding: 0 0 20px;width: 460px;}
+#red-car .param {margin: 335px 0 0;}
+#red-car .param ul {margin: 15px 0 0;}
+#red-car .param li {float: left;font-size: 12px;line-height: 14px;color: white;display: inline-block;margin: 0 10px 0 0;}
+#red-car .param img {margin: 0 10px 0 0;float: left;}
+#red-car .param span {display: inline-block;}
+
+#pref {text-align: center;}
+h2 {color: #313131;font-size: 23px;line-height: 30px;font-weight: 700;padding: 40px 0 20px;text-align: center;text-transform: uppercase;}
+.red {margin: 30px 0 10px;color: #e20033;font-size: 27px;font-weight: 400;text-align: left;}
+.pref-block {display: inline-block;width: 320px;margin: 0 0 30px;vertical-align: top;}
+.margin {margin: 0 25px 30px;}
+.pref-block img {float: left;margin: 0 10px 10px 0;}
+.pref-block h3 {text-transform: unset;color: #281000;font-weight: 700;font-size: 14px;line-height: 18px;float: left;text-align: left;padding: 25px 0 0;}
+.margin h3 {padding: 33px 0 0;}
+.standart-padding h3 {padding: 25px 0 0!important;}
+.pref-block p {color: #281000;line-height: 18px;font-size: 13px;clear: both;text-align: left;}
+
+table {widows: 100%;}
+th {padding: 15px 20px;background: #e20033;color: #ffffff;font-weight: 700;font-size: 12px;line-height: 18px;text-align: left;width: 12.5%;}
+th:first-child {width: 25%;}
+td {padding: 0 15px;text-align: center;background: #f2f2f2;color: #281000;font-weight: 400;font-size: 13px;line-height: 18px;height: 50px;}
+td:nth-child(even) {background: #dfdfdf;}
+td:first-child {text-align: left;}
+tr:last-child td {background: white;padding: 0 30px 0 15px;}
+
+.car-right {background: url(../img/img-1.jpg) no-repeat right bottom;height: 605px;padding: 20px 0 0;}		
+.car-right p {font-size: 34px;line-height: 44px;color: #231f20;font-weight: 400;}
+.car-right span {color: #e20033;font-weight: 900;}
+
+#video {background: #dfdfdf;text-align: center;}
+#video a {display: inline-block;width: 240px;margin: 20px 5px 40px;text-decoration: none;color: #231f20;text-transform: uppercase;font-weight: 700;font-size: 14px;line-height: 18px;opacity: 0.8;transition: all 0.3s ease-out 0.1s;}
+#video a:hover {opacity: 1.0;}
+#video img {margin: 0 0 5px;}
+
+#garant img {float: right;margin: 0 0 50px;}
+#garant ul {list-style: url(../img/marker.png) outside;color: #281000;font-weight: 400;font-size: 14px;line-height: 18px;display: inline-block;width: 380px;}
+#garant li {margin: 0 0 20px;}
+#garant span {display: inline-block;vertical-align: top;top: -1px;}
+#garant .openModal {float: left;margin: 0 0 20px;}
+
+.blue {background: #1e4e7a;clear: both;text-align: center;}		
+.blue h2 {color: #ffffff;}
+.blue .middle div {display: inline-block;vertical-align: top;color: #ffffff;width: 305px;}
+.blue .middle div:nth-child(3) {margin: 0 45px 30px;}
+.blue p {color: #ffffff;text-transform: uppercase;font-size: 14px;line-height: 18px;font-weight: 700;padding-left: 60px;margin: 20px 0;text-align: left;}
+.n1 {background: url(../img/n1.png) no-repeat top left;padding-top: 12px;padding-bottom: 40px;}
+.n2 {background: url(../img/n2.png) no-repeat top left;padding-top: 2px;}
+.n3 {background: url(../img/n3.png) no-repeat top left;padding-top: 2px;}
+.blue .openModal {background: none;border: 2px solid white;margin: 0 0 50px;} 
+.blue .openModal:hover {background: #0b3154!important;}
+
+#contact {text-align: center; margin: 0 auto 80px;}
+
+.grey {background: #ededed;padding: 40px 0 50px;margin: 0 0 50px;}
+.grey h2 {text-align: left;padding: 40px 0 10px;}
+.grey ul {list-style: url(../img/marker.png) inside;color: #281000;font-weight: 400;font-size: 14px;line-height: 18px;display: inline-block;width: 380px;}
+.grey li {margin: 0 0 10px;}
+.grey span {display: inline-block;vertical-align: top;top: -2px;}
+.grey .tel-link {background: url(../img/tel.png) no-repeat center left;padding: 0 0 0 30px;text-decoration: none;color: #281000;font-size: 22px;line-height: 32px;display: inline-block;}
+.grey .zakaz-form {position: absolute;top: -125px;right: 0;}
+
+#about p {padding: 0 150px;text-align: center;color: #281000;font-size: 14px;line-height: 18px;font-weight: 400;}
+#opislink1 {padding: 20px 10px 5px;text-decoration: none;border-bottom: 1px dashed #868686;color: #868686;font-size: 14px;line-height: 9px;display: inline-block;}
+
+footer {background: #000000;margin: 100px 0 0;}
+footer li {float: left;list-style: none;margin: 30px 25px 0 0;}
+footer li a {color: #8b8b8b;font-size: 11px;text-decoration: none;text-transform: uppercase;}
+footer li a:hover {color: white;}
+footer p {font-size: 12px;line-height: 39px;color: #8b8b8b;padding: 30px 0;clear: both;}
+footer .openModal {float: right;background: no-repeat;color: #8b8b8b;border: 1px solid #8b8b8b;margin: 23px 0 0;padding: 10px 35px;}
+footer .openModal:hover {background: #232323!important;color: white;border: 1px solid white;}
+
+/* Всплывающие окна */
+
+.modal {position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.85); z-index: 10000; -webkit-transition: opacity 500ms ease-in; -moz-transition: opacity 500ms ease-in; transition: opacity 500ms ease-in; opacity: 0; pointer-events: none;}
+/* Показываем модальное окно */
+.modal:target {opacity: 1; pointer-events: auto;}
+/* Содержание */
+.modal > div {margin: 10% auto;display: block;}
+/* Изменяем анимацию при открытии модального окна*/
+.modal:target > div {-webkit-animation-name: bounce;}
+
+@-webkit-keyframes bounce {
+	0% {
+		-webkit-transform: scale3d(0.1, 0.1, 1);
+		-webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.9);
+	}
+	55% {
+		-webkit-transform: scale3d(1.08, 1.08, 1);
+		-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0);
+	}
+	75% {
+		-webkit-transform: scale3d(0.95, 0.95, 1);
+		-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+	}
+	100% {
+		-webkit-transform: scale3d(1, 1, 1);
+		-webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.9);
+	}
+}
+@-webkit-keyframes minimise {
+	0% {
+		-webkit-transform: scale3d(1, 1, 1);
+	}
+	100% {
+		-webkit-transform: scale3d(0.1, 0.1, 1);
+	}
+}
+
+/* Ссылка на кнопку Закрыть */
+.modal a[href="#close"] {position: absolute; right: 0; top: 0; color: transparent; width: 100%; height: 100%; display: block; z-index: -1;}
+
+#video1 div, #video2 div, #video3 div, #video4 div {width: 560px;height: 315px;border: 5px solid black;box-shadow: 0 0 5px 5px black;}
+
+.message {display: none; position: fixed; top: 0; width: 100%; text-align: center; z-index: 100000; background-color: #1e4e7a; padding: 20px; text-transform: uppercase; color: #fcfcfc;}
+
+/************* Адаптивность ************
+
+@media only screen and (max-width: 801px), only screen and (max-device-width: 801px) {
+
+body{min-width: 770px;}
+.main {width:770px;margin:0;}	
+header {min-width:770px;height: 275px;}
+
+}
+
+@media only screen and (max-width: 769px), only screen and (max-device-width: 769px) {
+	
+body{min-width: 740px;}
+.main {width:740px;}	
+header {min-width:740px;}
+
+}
+
+@media only screen and (max-width: 601px), only screen and (max-device-width: 601px) {
+
+body{min-width: 570px;}
+.main {width:575px;}	
+header {min-width:570px;height: 215px;}
+
+}
+
+@media only screen and (max-width: 481px), only screen and (max-device-width: 481px) {
+
+body{min-width: 460px;}
+.main {width:450px;}	
+header {min-width:460px;height: 215px;}
+
+}
+
+@media only screen and (max-width: 321px), only screen and (max-device-width: 321px) {
+
+body{min-width: 300px;max-width: 310px;}
+.main {width:300px;}	
+header {min-width:300px;height: 295px;width: 305px;}
+
+}
+
+
+@media only screen and (max-width: 241px), only screen and (max-device-width: 241px) {
+
+html {width: 239px;}
+body{min-width: 239px;max-width: 239px;width: 239px;overflow: hidden;overflow-y: scroll;}
+.main {width:220px;}	
+header {min-width:239px;height: 260px;width:239px;}
+
+}*/
